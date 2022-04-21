@@ -15,7 +15,7 @@ export default {
  
 <style  scoped>
     .backgroundmap{
-        background-image: url(../assets/13.jpg) ;
+        background-image: url(../assets/image/13.jpg) ;
         background-size: 100% 720px ;
         width: 100%;
         height: 600px;

@@ -2,20 +2,20 @@
     <div class="Img">
         <div class="main">
                     <ul id="jpg">
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/1.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/2.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/3.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/4.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/5.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/6.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/7.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/8.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/11.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/10.webp" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/12.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/13.jpg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/14.jpeg" alt="图片"></li>
-                        <li class="jpg_li"><img class="jpg_image" src="../assets/15.jpeg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/1.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/2.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/3.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/4.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/5.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/6.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/7.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/8.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/11.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/10.webp" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/12.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/13.jpg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/14.jpeg" alt="图片"></li>
+                        <li class="jpg_li"><img class="jpg_image" src="../assets/image/15.jpeg" alt="图片"></li>
                     </ul>
         </div>
     </div>

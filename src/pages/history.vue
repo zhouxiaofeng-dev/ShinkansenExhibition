@@ -25,9 +25,9 @@
                  </div>
              </div>
              <div class="left">
-                <img src="../assets/1.jpg" alt="" class="image">
-                <img src="../assets/2.jpg" alt="" class="image" style="margin-top:300px">
-                <img src="../assets/3.jpg" alt="" class="image" style="margin-top:300px">
+                <img src="../assets/image/1.jpg" alt="" class="image">
+                <img src="../assets/image/2.jpg" alt="" class="image" style="margin-top:300px">
+                <img src="../assets/image/3.jpg" alt="" class="image" style="margin-top:300px">
              </div>
         </div>
     </div>

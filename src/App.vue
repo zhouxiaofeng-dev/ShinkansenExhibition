@@ -26,36 +26,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
   height: 100%;
 }
 /*引用字体图标*/
-@font-face {
-  font-family: "iconfont"; /* Project id 3342768 */
-  src: url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.woff2?t=1650422962319') format('woff2'),
-       url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.woff?t=1650422962319') format('woff'),
-       url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.ttf?t=1650422962319') format('truetype');
-}
 
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-search:before {
-  content: "\e699";
-}
-
-.icon-shoppingcart:before {
-  content: "\e881";
-}
-
-.icon-forwardo:before {
-  content: "\e736";
-}
-
-.icon-youjiantou_huaban:before {
-  content: "\e63e";
-}
 /* 路由通用样式 */
 .main{
         width: 1180px;
@@ -84,13 +55,13 @@ import BackgroundMap from './pages/backgroundmap.vue'
 /* 二级标题样式 */
 .h2{
   margin-top: 30px;
-  width: 100%;
+  width: 677px;
   color:black;
   margin-bottom: 30px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .introduce{
-  width: 737px;
+  width: 677px;
   margin-top: 30px;
   background-color: #F2F2F2;
   padding: 20px;
@@ -100,7 +71,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
 }
 /* 段落样式 */
 .p{
-  width: 777px;
+  width: 677px;
   margin-top: 20px;
   font-weight: 400!important;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -122,7 +93,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
 /* 表格样式 */
 table{
   color: #000;
-  width: 777px;
+  width: 677px;
   border-collapse: collapse;
   border-spacing: 0;
   border:1px solid #ccc
