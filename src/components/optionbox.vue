@@ -4,19 +4,23 @@
         <div class="whitebox" @mouseleave="close" @click="GoClick">
             <div class="WhiteBoxDiv">
                 <!-- @click="GoClick(index)" @mouseenter="ShowOption(index)" @mouseleave="LeaveOption(index)" -->
-             <li class="options" id="0">
-                <span class="mainContext">About</span>
+            <li class="options" id="0">
+                <span class="mainContext">Home</span>
                 <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
             </li>
             <li class="options" id="1">
-                <span class="mainContext">Famous model 22-141</span>
+                <span class="mainContext">About</span>
                 <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
             </li>
             <li class="options" id="2">
+                <span class="mainContext">Famous model 22-141</span>
+                <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
+            </li>
+            <li class="options" id="3">
                 <span class="mainContext">History</span>
                 <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
             </li>
-            <li class="options" @mouseenter="showoption=true" @mouseleave="showoption=false" id="3">
+            <li class="options" @mouseenter="showoption=true" @mouseleave="showoption=false" id="4">
                 <span class="mainContext">Comments</span>
                 <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
                 <transition name="Comment">
@@ -26,7 +30,7 @@
                     </div>
                 </transition>
              </li>
-             <li class="options" id="4">
+             <li class="options" id="5">
                  <span class="mainContext">Images</span>
                  <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
              </li>
@@ -71,7 +75,8 @@ export default {
       .optionbox{
           position: absolute;
           top:120px;
-          left: 0;
+          left: 50%;
+          transform: translateX(-50%);
           width: 100%;
           height: 600px;
           background-color: #fff;

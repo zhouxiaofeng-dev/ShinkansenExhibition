@@ -44,8 +44,7 @@ export default new VueRouter({
             component:BackGround
         },
         {
-            name: '*',
-            path: '*',
+            path: '/',
             redirect:'/main'
         }
 

@@ -1,21 +1,19 @@
 <template>
    <div class="context">
        <CommonHeader/>
-       <Transparentlayer/>
    </div>
 </template>
 
 <script>
 import CommonHeader from "./commonheader.vue"
-import Transparentlayer from "./transparentlayer.vue"
 export default {
-    components: {CommonHeader,Transparentlayer},
+    components: {CommonHeader},
 }
 </script>
 
 <style>
     .context{
+        position: relative;
         width: 100%;
-        background-color: transparent;
     }
 </style>

@@ -40,8 +40,8 @@ export default {
     data(){
         return {
             OptionBoxShow:false,
-            msg:['About','Famous model 22-141','History','Comments','Images'],
-            router:['about','famous','history','*','image']
+            msg:['Home','About','Famous model 22-141','History','Comments','Images'],
+            router:['main','about','famous','history','*','image']
         }
     },
     methods:{
@@ -60,14 +60,12 @@ export default {
             }
         },
         GoOthers(index){
-            if(index!=3){
+            if(index!=4){
                 this.$router.push({
                 name:this.router[index],
-            })
+               })
             }
-            //关闭背景和入口说明
-            this.$store.state.PageAbout.isClose = false
-
+            
         },
         change(){
             this.OptionBoxShow=false
@@ -98,6 +96,7 @@ export default {
         }
     }
    .header{
+       position: relative;
        width: 100%;
        height: 120px;
        background-color: black;

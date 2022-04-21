@@ -1,16 +1,14 @@
 <template>
   <div id="app">
     <Context/>
-    <BackgroundMap/> 
   </div>
 </template>
 
 <script>
-import Context from './components/context.vue'
-import BackgroundMap from './pages/backgroundmap.vue'
+import Context from "./components/context.vue"
   export default {
     name: "App",
-    components:{Context,BackgroundMap}
+    components:{Context}
   };
 </script>
 
@@ -29,14 +27,13 @@ import BackgroundMap from './pages/backgroundmap.vue'
 
 /* 路由通用样式 */
 .main{
-        width: 1180px;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-between;
-        
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;        
 }
 .right{
-  width: 798px;
+  width: 70%;
   height: 100%;
   padding: 50px 60px ;
     
@@ -55,13 +52,13 @@ import BackgroundMap from './pages/backgroundmap.vue'
 /* 二级标题样式 */
 .h2{
   margin-top: 30px;
-  width: 677px;
+  width: 100%;
   color:black;
   margin-bottom: 30px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .introduce{
-  width: 677px;
+  width: 100%;
   margin-top: 30px;
   background-color: #F2F2F2;
   padding: 20px;
@@ -71,17 +68,17 @@ import BackgroundMap from './pages/backgroundmap.vue'
 }
 /* 段落样式 */
 .p{
-  width: 677px;
+  width: 100%;
   margin-top: 20px;
   font-weight: 400!important;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #000000;
-  word-wrap: break-word;
+  word-wrap:break-word;
   overflow-wrap:break-word;
   font-size: 20px;
 }
 .left{
-  width: 380px;
+  width: 30%;
   height: 100%;
 }
 /* 图片样式 */
@@ -93,7 +90,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
 /* 表格样式 */
 table{
   color: #000;
-  width: 677px;
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   border:1px solid #ccc

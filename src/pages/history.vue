@@ -53,7 +53,7 @@ export default {
         top: 121px;
         left: 50%;
         transform: translateX(-50%);
-        width: 1215px;
+        width: 100%;
         background-color: #efefef;
         border-top: 1px solid #fff;
         z-index: 199;

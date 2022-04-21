@@ -4,7 +4,6 @@ Vue.use(Vuex)
 let PageAbout = {
     namespaced: true,
     state: {
-        isClose: true,
         OptionBoxShow:false,
         
     },
