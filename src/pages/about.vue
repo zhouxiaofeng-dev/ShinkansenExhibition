@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style>
+<style  scoped>
     .about {
         position: absolute;
         top: 121px;

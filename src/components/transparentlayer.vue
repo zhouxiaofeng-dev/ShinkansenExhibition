@@ -38,9 +38,7 @@ export default {
 }
 </script>
 
-<style>
-    
-
+<style  scoped>
     .Transparentlayer{
         position: absolute;
         width: 100%;
@@ -60,6 +58,7 @@ export default {
         align-items: center;
         box-shadow: 10px 10px 5px rgba(0,0,0,.9);
         font-family:Georgia, 'Times New Roman', Times, serif;
+        cursor:default;
     }
     .EntryDescribe{
         width: 100%;
@@ -90,11 +89,12 @@ export default {
         text-indent: 25px;
         margin-top: 20px;
         box-shadow: 10px 10px 5px rgba(0,0,0,.9);
+        cursor: pointer;
     }
     .EntryDiv .EntryIcon{
         position: absolute;
         top: 65%;
-        left: 65%;
+        left: 60%;
         width: 20px;
         height: 20px;
         font-size: 30px;

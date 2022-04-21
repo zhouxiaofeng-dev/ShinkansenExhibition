@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style>
+<style  scoped>
     .positive{
         position: absolute;
         top: 121px;

@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
       .optionbox{
           position: absolute;
           top:120px;
@@ -141,7 +141,7 @@ export default {
       }
       .CommentsOption{
           position: absolute;
-          left:220px;
+          left:0px;
           top: 51px;
           z-index: 201;
           width:150px;

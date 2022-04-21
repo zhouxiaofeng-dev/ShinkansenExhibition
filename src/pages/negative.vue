@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     .negative{
         position: absolute;
         top: 121px;

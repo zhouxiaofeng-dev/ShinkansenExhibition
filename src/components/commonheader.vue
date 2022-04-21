@@ -60,9 +60,11 @@ export default {
             }
         },
         GoOthers(index){
-            this.$router.push({
+            if(index!=3){
+                this.$router.push({
                 name:this.router[index],
             })
+            }
             //关闭背景和入口说明
             this.$store.state.PageAbout.isClose = false
 
@@ -79,7 +81,7 @@ export default {
 }
 </script>
 
-<style>
+<style  scoped>
     .Comment-enter-active{
             animation: show 0.2s linear;
     }

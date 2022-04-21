@@ -52,24 +52,7 @@ export default {
 }
 </script>
 
-<style>
-    /* .test{
-        color: black;
-    }
-    .v-enter-active{
-            animation: show 0.5s linear;
-        }
-    .v-leave-active{
-            animation: show 0.5s linear reverse;
-    }
-    @keyframes show {
-        from{
-                transform: translateY(-100%);
-        }
-        to{
-                transform: translateY(0%);
-        }
-    } */
+<style  scoped>
     .history{
         position: absolute;
         top: 121px;

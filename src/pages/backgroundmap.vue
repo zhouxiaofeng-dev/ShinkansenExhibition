@@ -13,7 +13,7 @@ export default {
 }
 </script>
  
-<style>
+<style  scoped>
     .backgroundmap{
         background-image: url(../assets/13.jpg) ;
         background-size: 100% 720px ;

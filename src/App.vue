@@ -78,6 +78,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
   width: 100%;
   color:black;
   margin-bottom: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* 二级标题样式 */
 .h2{
@@ -85,6 +86,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
   width: 100%;
   color:black;
   margin-bottom: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .introduce{
   width: 737px;
@@ -93,16 +95,18 @@ import BackgroundMap from './pages/backgroundmap.vue'
   padding: 20px;
   color: #000;
   font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* 段落样式 */
 .p{
   width: 777px;
   margin-top: 20px;
   font-weight: 400!important;
-  font-family: "SimSun", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #000000;
   word-wrap: break-word;
   overflow-wrap:break-word;
+  font-size: 20px;
 }
 .left{
   width: 380px;

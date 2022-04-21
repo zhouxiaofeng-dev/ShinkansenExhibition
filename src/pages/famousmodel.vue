@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style>
+<style  scoped>
     .famousModel{
         position: absolute;
         top: 121px;
