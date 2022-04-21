@@ -27,7 +27,8 @@ export default {
     .about {
         position: absolute;
         top: 121px;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         width: 1215px;
         background-color: #efefef;
         border-top: 1px solid #fff;

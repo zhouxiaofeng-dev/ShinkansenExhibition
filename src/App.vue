@@ -18,6 +18,7 @@ import BackgroundMap from './pages/backgroundmap.vue'
 *{
   padding: 0;
   margin: 0 auto;
+  max-width: 2000px;
 
 }
 #app {

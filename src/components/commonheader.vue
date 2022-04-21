@@ -82,6 +82,7 @@ export default {
 </script>
 
 <style  scoped>
+
     .Comment-enter-active{
             animation: show 0.2s linear;
     }
@@ -96,6 +97,36 @@ export default {
             opacity: 1;
         }
     }
+    @font-face {
+  font-family: "iconfont"; /* Project id 3342768 */
+  src: url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.woff2?t=1650422962319') format('woff2'),
+       url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.woff?t=1650422962319') format('woff'),
+       url('//at.alicdn.com/t/font_3342768_2onuh8ey8p8.ttf?t=1650422962319') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e699";
+}
+
+.icon-shoppingcart:before {
+  content: "\e881";
+}
+
+.icon-forwardo:before {
+  content: "\e736";
+}
+
+.icon-youjiantou_huaban:before {
+  content: "\e63e";
+}
    .header{
        width: 100%;
        height: 120px;
@@ -178,6 +209,7 @@ export default {
        display: flex;
        justify-content: space-between;
        align-items: center;
+       margin: 0;
        margin-right: 30px;
        cursor: pointer;
        text-decoration: none;

@@ -22,11 +22,6 @@
                     <Form/>
                     <!-- 相关报道 -->
                     <Relevant/>
-                        <button @click="msg=!msg">点我</button>
-                        <transition>
-                            <h1 v-if="msg" class="test">这里是h1</h1>
-                        </transition>
-                        
                  </div>
              </div>
              <div class="left">
@@ -56,7 +51,8 @@ export default {
     .history{
         position: absolute;
         top: 121px;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         width: 1215px;
         background-color: #efefef;
         border-top: 1px solid #fff;
