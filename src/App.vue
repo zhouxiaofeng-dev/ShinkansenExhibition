@@ -17,11 +17,11 @@ import BackgroundMap from './pages/backgroundmap.vue'
 <style>
 *{
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 
 }
 #app {
-  width: 1536px;
+  width: 100%;
   height: 100%;
 }
 /*引用字体图标*/
