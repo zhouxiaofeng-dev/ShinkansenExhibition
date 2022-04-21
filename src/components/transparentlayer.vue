@@ -1,9 +1,9 @@
 <template>
   <div class="Transparentlayer" >
       <div class="EntryDiv">
-          <div class="EntryDescribe">欢迎查看新干路的相关信息!</div>
-          <div class="EntryGuide">如果想查看更多信息，请点击下方按钮</div>
-          <a href="https://baike.baidu.com/item/%E6%96%B0%E5%B9%B2%E7%BA%BF/856920" target="_blank" class="EntryButton" ref="Detail" @mousemove="move" @mouseleave="leave" >查看更多信息
+          <div class="EntryDescribe">Welcome to check the new trunk road related information!</div>
+          <div class="EntryGuide">For more information, please click the button below</div>
+          <a @click="()=>{this.$router.push('about')}" class="EntryButton" ref="Detail" @mousemove="move" @mouseleave="leave" >Plan your visit
           <i class="iconfont icon-youjiantou_huaban EntryIcon" @click="GoDetails" ref="iconfont" ></i>
           </a>
           <!-- 字体图标 -->
@@ -49,9 +49,10 @@ export default {
     }
     .EntryDiv{
         position: absolute;
+        padding: 0 10px;
         top: 41%;
         left: 15%;
-        width: 250px;
+        width: 350px;
         height: 250px;
         background-color: rgb(231, 213, 213);
         display: flex;
@@ -80,7 +81,7 @@ export default {
         color: rgb(40, 37, 37);
     }
     .EntryButton{
-        width: 200px;
+        width: 220px;
         height: 40px;
         background-color: black;
         line-height: 40px;

@@ -23,7 +23,9 @@
                     <li class="navigationLi" v-for="(item,index) in msg" :key="index" @click="GoOthers(index)">
                       <a href="javascript:;" id="NavigationA">{{item}}</a>
                     </li>
-                    <OptionBox v-if="OptionBoxShow"/>
+                    <transition name="Comment">
+                        <OptionBox class="option-box" v-if="OptionBoxShow"/>
+                    </transition>
           </div>
           <router-view></router-view>
       </div> 
@@ -78,6 +80,20 @@ export default {
 </script>
 
 <style>
+    .Comment-enter-active{
+            animation: show 0.2s linear;
+    }
+    .Comment-leave-active{
+            animation: show 0.2s linear reverse;
+    }
+    @keyframes show {
+        from{
+           opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
    .header{
        width: 100%;
        height: 120px;

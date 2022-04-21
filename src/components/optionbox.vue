@@ -1,6 +1,6 @@
 <template>
   <div class="optionbox">
-      <transition>
+      <transition name="Comment">
         <div class="whitebox" @mouseleave="close" @click="GoClick">
             <div class="WhiteBoxDiv">
                 <!-- @click="GoClick(index)" @mouseenter="ShowOption(index)" @mouseleave="LeaveOption(index)" -->
@@ -19,7 +19,7 @@
             <li class="options" @mouseenter="showoption=true" @mouseleave="showoption=false" id="3">
                 <span class="mainContext">Comments</span>
                 <i class="iconfont icon-youjiantou_huaban optionIconFont"></i>
-                <transition>
+                <transition name="Comment">
                     <div class="CommentsOption" v-if="showoption">
                         <div class="Positive" @click="GoPositive">Positive</div>
                         <div class="Negative" @click="GoNegative">Negative</div>
@@ -164,10 +164,10 @@ export default {
           color: #000;
           border-color: #000;
       }
-    .v-enter-active{
+    .Comment-enter-active{
             animation: show 0.5s linear;
     }
-    .v-leave-active{
+    .Comment-leave-active{
             animation: show 0.5s linear reverse;
     }
     @keyframes show {
