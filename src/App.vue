@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <Context/>
-  </div>
+<div id="app">
+  <router-view></router-view>
+</div>
 </template>
 
 <script>
-import Context from "./components/context.vue"
   export default {
     name: "App",
-    components:{Context}
   };
 </script>
 
@@ -17,7 +15,10 @@ import Context from "./components/context.vue"
   padding: 0;
   margin: 0 auto;
   max-width: 2000px;
-
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
 }
 #app {
   width: 100%;
@@ -27,15 +28,15 @@ import Context from "./components/context.vue"
 
 /* 路由通用样式 */
 .main{
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     display: flex;
     justify-content: space-between;        
 }
 .right{
-  width: 70%;
+  width: 55%;
   height: 100%;
-  padding: 50px 60px ;
+  padding: 30px 30px ;
     
 }
 .content{
@@ -78,12 +79,12 @@ import Context from "./components/context.vue"
   font-size: 20px;
 }
 .left{
-  width: 30%;
+  width: 25%;
   height: 100%;
 }
 /* 图片样式 */
 .image{
-   width: 98%;
+   width:100%;
    height: 200px;
    margin: 0 5px 0 5px;
 }

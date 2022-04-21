@@ -80,6 +80,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'index.html',
+      
       // 打包后 js 文件放在 body 的最后
       inject: true
     }),

@@ -27,8 +27,9 @@
                         <OptionBox class="option-box" v-if="OptionBoxShow"/>
                     </transition>
           </div>
-          <router-view></router-view>
+          
       </div> 
+
   </div>
 </template>
 

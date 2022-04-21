@@ -78,7 +78,7 @@ export default {
           left: 50%;
           transform: translateX(-50%);
           width: 100%;
-          height: 600px;
+          height: 100vh;
           background-color: #fff;
           z-index: 200;
           background: rgba(0,0,0,.6);
